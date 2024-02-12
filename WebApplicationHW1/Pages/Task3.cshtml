@@ -1,0 +1,14 @@
+﻿@page
+@model Task3Model
+@{
+    ViewData["Title"] = "Ресторан";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h2>Інформація про ресторан</h2>
+    <p>Назва: @Model.Name</p>
+    <p>Адреса: @Model.Address</p>
+    <p>Телефон: @Model.Phone</p>
+</div>
